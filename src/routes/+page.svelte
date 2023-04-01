@@ -7,7 +7,9 @@
 <div id="homeBG">
 
     <div id="homeContent">
-        <h1 id=BigHead>Olof</h1>
+        <div id="title">
+            <h1 id=BigHead>Olof</h1> <img src="favicon.png" alt="">
+        </div>
 
         <p>
             Välkommen till min fantastiska hemsida! <br>
@@ -68,8 +70,24 @@
         font-size: 5rem;
 
         margin: 3rem 0 1rem;
+    }
 
-        text-shadow: 1em 1em 0.5rem 0.5rem rgba(26, 144, 255, 0.836);
+    #title {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            margin-top: 1.5rem;
+
+            width: 5rem;
+            height: auto;
+
+            margin-left: 1rem;
+
+            filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5));
+        }
     }
 
     p {
@@ -89,7 +107,7 @@
 
             margin: 0 1rem;
 
-            filter: invert(100%);
+            filter: invert(100%) drop-shadow(0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5));
 
             transition: filter 0.15s;
 
