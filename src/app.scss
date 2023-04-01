@@ -3,3 +3,19 @@
     background-color: #222;
     color: white;
 }
+
+a {
+    $link-color: rgb(127, 214, 248);
+
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+        color: darken($link-color, 10%);
+    }
+
+    &:visited {
+        color: darken($link-color, 5%);
+    }
+}
