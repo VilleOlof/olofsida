@@ -3,7 +3,6 @@
     export let https: boolean = true;
 
     url = https ? url.substring(12, url.length) : url;
-    
 </script>
 
 <div>
