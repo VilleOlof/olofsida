@@ -2,7 +2,7 @@
 
 </script>
 
-<img id=BG src="Home-Background.png" alt="Minecraft Background">
+<img id=BG src="Home-Background.jpg" alt="Minecraft Background">
 
 <div id="homeBG">
 
