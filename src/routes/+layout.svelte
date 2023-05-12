@@ -5,7 +5,7 @@
 <slot></slot>
 
 <footer>
-    <p>© 2023 Olof</p><p>kontaktolofspelar@gmail.com</p>
+    <p>© 2023 Olof - <a href="mailto:kontaktolofspelar@gmail.com">kontaktolofspelar@gmail.com</a></p>
 </footer>
 
 <style lang="scss">
