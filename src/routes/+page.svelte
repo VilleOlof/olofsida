@@ -2,7 +2,11 @@
 
 </script>
 
-<img id=BG src="Home-Background.jpg" alt="Minecraft Background">
+<picture id=BG>
+    <source srcset="Home-Background.webp" type="image/webp" />
+    <source srcset="Home-Background.jpg" type="image/jpeg" />
+    <img id=BG src="Home-Background.jpg" alt="Minecraft Background" />
+</picture>
 
 <div id="homeBG">
 
